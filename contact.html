@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+	Name: Coobvam Lor
+	Date Created: 1/14/2020
+	Most Recent Revision: 
+-->
+<html lang="en">
+<head>
+	<title>Lor Family Restaurant</title>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Lor Family Restaurant</h1>
+			<hr>
+		</header>
+		<nav>
+			<a href="index.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact</a>
+			<hr>
+		</nav>
+		<form action="submit.html" method="POST">
+			<label for="Name">Name</label>
+			<input type="text" id="Name" name="Name">
+			<br>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email">
+			<br>
+			<label for="Phone">Phone</label>
+			<input type="Phone" id="Phone" name="Phone">
+			<br>
+            <label for="inquiry">Reason for Inquiry</label>
+            <select id="inquiry" name="inquiry">
+                <option value="default" selected>Catering</option>
+                <option value="afternoon">Private Party</option>
+                <option value="evening">Feedback</option>
+                <option value="Other">Other</option>
+            </select>
+                <br>
+           	<label for="info">Additional Information</label>
+           		<textarea id="info" name="info"></textarea>
+	        <fieldset>
+	        	<legend>Have you been to the restaurant?</legend>
+	        		<input type="radio" id="choice1" name="questionair" value="no">
+	        		<label for="choice1">No</label>
+	        		<input type="radio" id="choice2" name="questionair" value="yes">
+	        		<label for="choice2">Yes</label>
+	        </fieldset>
+	        <fieldset>
+	        	<legend>Best day to contact you:</legend><br />
+                    <input type="checkbox" id="monday" name="contact" value="monday">
+                    <label for="monday">Monday</label>
+                    <input type="checkbox" id="tuesday" name="contact" value="tuesday">
+                    <label for="tuesday">Tuesday</label>
+                    <input type="checkbox" id="wednesday" name="contact" value="wednesday">
+                    <label for="wednesday">Wednesday</label>
+                    <input type="checkbox" id="thursday" name="contact" value="thursday">
+                    <label for="thursday">Thursday</label>
+                    <input type="checkbox" id="friday" name="contact" value="friday">
+                    <label for="friday">Friday</label>
+                    <input type="checkbox" id="saturday" name="contact" value="saturday">
+                    <label for="saturday">Saturday</label>
+                    <input type="checkbox" id="sunday" name="contact" value="sunday">
+                    <label for="sunday">Sunday</label>
+	        </fieldset>
+	           <input type="submit" value="submit" name="submit">
+		</form>
+
+		<footer>
+			<hr>
+			<p>1142 North 10th St, Maplewood, MN 55117</p>
+			<p>Telephone: 555-555-5555</p>
+		</footer>
+	</main>
+</body>
+</html>
