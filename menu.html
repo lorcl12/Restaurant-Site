@@ -6,21 +6,39 @@
 -->
 <html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+	<link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css">
+	<!-- Load an icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Lor Family Restaurant</title>
 </head>
+
 <body>
+	<noscript>
+		<h3>For full functionality of this site it is necessary to enable JavaScript.</h3>
+	</noscript>
 	<main>
-		<header>
-			<h1>Lor Family Restaurant</h1>
-			<hr>
-		</header>
-		<nav>
-			<a href="index.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact</a>
-			<hr>
+		<div class="header">
+			<header class="jumbotron">
+				<h1>Lor Family Restaurant</h1>
+				<h2 class="font-italic">From Our Family To Yours!</h2>
+				<h3 class="text-right mt-5">Opening New Locations in June 2020</h3>
+			</header>
+		</div>
+
+		<nav>	
+			<a class="btn badge-pill" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+			<a class="btn badge-pill" href="menu.html">Menu</a>
+			<a class="btn badge-pill" href="contact.html">Contact</a>
 		</nav>
+		<br>
+
 		<section>
 			<article id="burgerandfries">
-				<p>Burger and Fries</p>
+				<p style="font-weight: bold;">Burger and Fries</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -30,7 +48,7 @@
 			</article>
 
 			<article id="hotdogandchips">
-				<p>Hot Dog and Chips</p>
+				<p style="font-weight: bold;">Hot Dog and Chips</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -40,7 +58,7 @@
 			</article>
 
 			<article id="italiansausageandpeppers">
-				<p>Italian Sausage and Peppers</p>
+				<p style="font-weight: bold;">Italian Sausage and Peppers</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -50,7 +68,7 @@
 			</article>
 
 			<article id="tenderloisandwichandchips">
-				<p>Tenderloin Sandwich and Chips</p>
+				<p style="font-weight: bold;">Tenderloin Sandwich and Chips</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -60,7 +78,7 @@
 			</article>
 
 			<article id="housesalad">
-				<p>House Salad</p>
+				<p style="font-weight: bold;">House Salad</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -70,7 +88,7 @@
 			</article>
 
 			<article id="brisketsandwichandfries">
-				<p>Brisket Sandwich and Fries</p>
+				<p style="font-weight: bold;">Brisket Sandwich and Fries</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -79,11 +97,46 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</article>
 		</section>
+		<table>
+				<thead>
+					<tr>
+						<th>Beverages</th>
+						<th>Cost</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Root Bear</td>
+						<td>$3.00</td>
+					</tr>
+					<tr>
+						<td>Bottled Water</td>
+						<td>$1.25</td>
+					</tr>
+					<tr>
+						<td>Lemonade</td>
+						<td>$1.00</td>
+					</tr>
+					<tr>
+						<td>Iced Tea</td>
+						<td>$1.25</td>
+					</tr>
+				</tbody>
+		</table>
 		<hr>
 		<footer>
 			<p>1142 North 10th St, Maplewood, MN 55117</p>
 			<p>Telephone: 555-555-5555</p>
 		</footer>
 	</main>
+
+	<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+       
+       	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+       	<script type="text/javascript" src="scripts/restaurantSite.js"></script>
 </body>
 </html>

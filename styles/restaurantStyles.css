@@ -1,0 +1,85 @@
+body{
+	font-family: courier, arial, helvetica;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+
+nav{
+    /*border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;*/
+    padding-top: px;
+    padding-bottom: px;
+    text-align: center;
+}
+   
+nav .btn{
+    background-color: #5b7d87;
+    color:#fef9ff;
+}
+       		
+nav .btn:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-inner{
+	text-align: center;
+	font-size: 1.25em;
+}
+.clear-float{
+	clear: both;
+	text-align: center;
+}
+
+#whywecook {
+	text-decoration: underline;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#historyofrestaurant {
+	font-size: 1em;
+	text-align: center;
+	margin: 15px 70px 15px 70px;
+	padding: 15px 70px 15px 70px;
+}
+
+section {
+	margin: 10px 30px 10px 30px;
+}
+
+footer {
+	text-align: center;
+	line-height: 2px;
+}
+
+table, th, td {
+	border: 1px solid #0d1f2d;
+	border-collapse: collapse;
+	padding: 5px 10px;
+}
+table{
+	width: 90%;
+	margin: auto;
+}
+tr {
+	height: 30px;
+}
+th {
+	background-color: #546a7b;
+	color: #f2eded;
+}
+tbody tr:nth-child(odd){
+	background-color: lightgrey;
+}
+
+form{
+	margin-left: 30px;
+}
+
+legend {
+	font-size: 16px;
+}
